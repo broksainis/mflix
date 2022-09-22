@@ -1,4 +1,4 @@
-## Express + React + Mongo sample application
+## Typescript Express + Mongo + React sample application
 - Lets you search for movies through IMDB movies database (years 1893-2015) by providing fragment of the title and movie rating
 - Possible future updates including genres and actors
 
