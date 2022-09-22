@@ -9,7 +9,11 @@ export interface IMovieModel extends IMovie, Document {}
 const MovieSchema: Schema = new Schema(
     {
         title: { type: String },
-        genres: {type: Array}
+        genres: {type: Array},
+        year: {type: Number},
+        imdb: {
+            rating: Number
+        }
     },
     {
         versionKey: false
