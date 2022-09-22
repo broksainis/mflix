@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import { Badge, Container, Row } from 'react-bootstrap';
 import Movies from './components/Movies/Movies';
 
